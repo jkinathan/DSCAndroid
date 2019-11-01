@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        findViewById(R.id.loadingPanel).setVisibility(View.GONE);
+
         mFirebaseAuth = FirebaseAuth.getInstance();
         emailid = findViewById(R.id.email);
         passwordid = findViewById(R.id.password);
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                findViewById(R.id.loadingPanel).setVisibility(View.VISIBLE);
                 String emailr = emailid.getText().toString();
                 String passwordr = passwordid.getText().toString();
                 if(emailr.isEmpty()){
@@ -49,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                     passwordid.setError("Field password is empty");
                 }
                 else if(emailr.isEmpty() && passwordr.isEmpty()){
+
                     Toast.makeText(MainActivity.this, "Both Fields are empty",Toast.LENGTH_SHORT).show();
                 }
                 else if(!(emailr.isEmpty() && passwordr.isEmpty())){
@@ -66,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
                                 startActivity(toHome);
 
                             }
-                            //findViewById(R.id.loadingPanel).setVisibility(View.GONE);
+                            findViewById(R.id.loadingPanel).setVisibility(View.GONE);
                         }
                     });
                 }
