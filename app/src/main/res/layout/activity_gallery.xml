@@ -27,7 +27,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/campbell-boulanger-348386-unsplash"
+                android:background="@drawable/campbell"
                 android:maxWidth="400dp"
                 android:maxHeight="400dp" />
 
@@ -35,7 +35,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/gettyimages-1130024427-594x594"
+                android:background="@drawable/gettyimages1"
                 android:maxWidth="400dp"
                 android:maxHeight="400dp" />
 
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/gettyimages-970199346-594x594"
+                android:background="@drawable/gettyimages9"
                 android:maxWidth="400dp"
                 android:maxHeight="400dp" />
 
@@ -51,7 +51,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="5dp"
-                android:background="@drawable/david-tran-484920-unsplash"
+                android:background="@drawable/david"
                 android:maxWidth="400dp"
                 android:maxHeight="400dp" />
         </LinearLayout>
