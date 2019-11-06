@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactActivity"
+    android:orientation="vertical"
+    android:background="@drawable/firstbackground">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact"
+        android:textSize="20dp"
+
+        android:id="@+id/contactus"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textAlignment="textStart"
+        android:id="@+id/messagecontact"
+        android:hint="@string/enter_your_message_here"
+        android:gravity="start"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/send"
+        android:text="@string/send"
+        android:textColor="#FFFF"
+        android:textSize="15sp"
+        android:background="@drawable/buttonbackground"
+        android:textAlignment="center"/>
+</LinearLayout>

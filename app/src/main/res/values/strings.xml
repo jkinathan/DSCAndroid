@@ -10,4 +10,8 @@
     <string name="password">Password</string>
     <string name="login">LOG IN</string>
     <string name="registernow">Dont have an account?</string>
+    <string name="home">Home</string>
+    <string name="contact">Contact</string>
+    <string name="send">Send</string>
+    <string name="enter_your_message_here">Enter your message here!</string>
 </resources>
